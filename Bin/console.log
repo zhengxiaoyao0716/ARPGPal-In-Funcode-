@@ -1,0 +1,672 @@
+//-------------------------- 8/5/2015 -- 18:19:21 -----
+Processor Init:
+   Intel (unknown, Pentium Pro/II/III family), ~2.55 Ghz
+     (timed at roughly 2.56 Ghz)
+   FPU detected
+   MMX detected
+   SSE detected
+ 
+Math Init:
+   Installing Standard C extensions
+   Installing Assembly extensions
+   Installing FPU extensions
+   Installing MMX extensions
+   Installing SSE extensions
+ 
+Input Init:
+   DirectInput enabled.
+
+Initializing chunk mappings...
+   o 'TEXT' maps to TextChunk
+   o 'SCHK' maps to UnknownChunk
+   o 'SCHK' maps to SimChunk
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/main.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/game/main.cs.
+ % - Initializing Common
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/preferences/defaultPrefs.cs.
+Reading Display Device information...
+   Primary Display Device Found:
+      Vendor Id: VEN_0000
+      Device Id: DEV_0000
+
+Using OpenGL rendering. Fullscreen: 0
+
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gameScripts/xml.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gameScripts/properties.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gameScripts/common.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gameScripts/audio.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gameScripts/canvas.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gameScripts/cursor.cs.
+Video Init:
+   Accelerated OpenGL display device detected.
+   Accelerated D3D device not detected.
+   Voodoo 2 display device not detected.
+
+Activating the OpenGL display device...
+Activating the OpenGL display device...
+Setting screen mode to 320x320x32 (w)...
+Creating a new window...
+Acquiring a new device context...
+Pixel format set:
+  32 color bits, 24 depth bits, 8 stencil bits
+Creating a new rendering context...
+Making the new rendering context current...
+OpenGL driver information:
+  Vendor: Intel
+  Renderer: Intel(R) HD Graphics 4600
+  Version: 4.3.0 - Build 10.18.15.4256
+OpenGL Init: Enabled Extensions
+  ARB_multitexture (Max Texture Units: 8)
+  EXT_blend_color
+  EXT_blend_minmax
+  EXT_compiled_vertex_array
+  EXT_texture_env_combine
+  EXT_packed_pixels
+  EXT_fog_coord
+  ARB_texture_compression
+  EXT_texture_compression_s3tc
+  3DFX_texture_compression_FXT1
+  (ARB|EXT)_texture_env_add
+  EXT_texture_filter_anisotropic (Max anisotropy: 16)
+OpenGL Init: Disabled Extensions
+  EXT_paletted_texture
+  NV_vertex_array_range
+  WGL_EXT_swap_control
+
+Max Texture Size reported as: 16384
+Setting screen mode to 800x600x32 (w)...
+OpenAL Driver Init:
+   Vendor: Creative Labs Inc.
+   Version: OpenAL 1.0
+   Renderer: Software
+   Extensions: EAX 2.0, EAX 3.0, EAX Unified, and EAX-AC3
+
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/profiles.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/cursors.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/messageBoxOk.gui.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/messageBoxYesNo.gui.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/messageBoxYesNoCancel.gui.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/messageBoxOKCancel.gui.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/messageBoxOKCancelDetailsDlg.gui.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/messagePopup.gui.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/options.gui.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/remap.gui.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/console.gui.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/NetworkMenu.gui.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/startServer.gui.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/joinServer.gui.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/waitingForServer.gui.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/helpDlg.gui.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/messageBox.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/help.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gui/chatGui.gui.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gameScripts/screenshot.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gameScripts/metrics.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/Gui/FrameOverlayGui.gui.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gameScripts/scriptDoc.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gameScripts/keybindings.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gameScripts/options.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gameScripts/levelManagement.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gameScripts/projectManagement.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gameScripts/projectResources.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/common/gameScripts/align.cs.
+
+FunCode (v1.7.5) initialized...
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/game/managed/datablocks.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/game/managed/persistent.cs.
+Compiling D:/MyProject/Other/FunCode/ARPGpal/Bin/game/managed/brushes.cs...
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/game/managed/brushes.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/game/gameScripts/datablocks.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/game/gameScripts/guiProfiles.cs.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/game/gui/mainScreen.gui.
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/game/gameScripts/game.cs.
+Activating DirectInput...
+DirectInput joystick failed to enable!
+Compiling D:/MyProject/Other/FunCode/ARPGpal/Bin/game/data/levels/startPage.t2d...
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/game/data/levels/startPage.t2d.
+Setting screen mode to 1366x745x32 (w)...
+Compiling D:/MyProject/Other/FunCode/ARPGpal/Bin/game/data/levels/chapter0.t2d...
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/game/data/levels/chapter0.t2d.
+Namespace::unlinkClass - cannot unlink namespace parent linkage for wulinglun for t2dImageMapDatablock.
+Error: cannot change namespace parent linkage of wulinglun from t2dImageMapDatablock to t2dAnimatedSprite.
+t2dSceneGraph::addToScene() - Object '1641' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1642' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1643' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1644' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1645' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1646' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1647' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1648' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1649' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1650' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1651' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1652' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1653' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1654' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1655' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1656' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1657' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1658' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1659' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1660' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1661' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1662' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1663' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1664' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1665' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1666' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1667' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1668' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1669' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1670' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1671' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1672' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1673' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1674' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1675' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1676' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1677' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1678' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1679' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1680' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1681' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1682' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1683' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1684' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1685' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1686' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1687' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1688' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1689' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1690' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1691' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1692' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1693' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1694' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1695' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1696' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1697' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1698' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1699' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1700' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1701' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1702' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1703' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1704' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1705' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1706' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1707' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1708' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1709' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1710' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1711' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1712' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1713' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1714' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1715' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1716' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1717' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1718' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1719' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1720' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1721' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1722' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1723' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1724' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1725' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1726' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1727' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1728' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemy900)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1729' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1730' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1731' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1732' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1733' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemy900)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1734' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1735' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1736' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemy900)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1737' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1738' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1739' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1740' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1741' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1742' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1743' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1744' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1745' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1746' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1747' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1748' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1749' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1750' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1751' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1752' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1753' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1754' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1755' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1756' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1757' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1758' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1759' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1760' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1761' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1762' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1763' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1764' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1765' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1766' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1767' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1768' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemy900)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1769' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1770' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1771' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemy900)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemy900)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemy900)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemy900)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemy900)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemy900)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemy900)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemy900)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemy900)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1772' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1773' is already in a SceneGraph!.
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss11)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss22)
+t2dAnimationController::playAnimation() - Invalid t2dAnimationDatablock datablock (enemyBoss33)
+t2dSceneGraph::addToScene() - Object '1774' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1775' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1776' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1777' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1778' is already in a SceneGraph!.
+t2dSceneGraph::addToScene() - Object '1779' is already in a SceneGraph!.
+Namespace::unlinkClass - cannot unlink namespace parent linkage for wulinglun for t2dImageMapDatablock.
+Compiling D:/MyProject/Other/FunCode/ARPGpal/Bin/game/data/levels/startPage.t2d...
+Loading compiled script D:/MyProject/Other/FunCode/ARPGpal/Bin/game/data/levels/startPage.t2d.
+DirectInput deactivated.
+Shutting down the OpenGL display device...
+Making the GL rendering context not current...
+Deleting the GL rendering context...
+Releasing the device context...

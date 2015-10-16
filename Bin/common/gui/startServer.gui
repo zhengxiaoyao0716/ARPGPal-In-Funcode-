@@ -1,0 +1,188 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(startServerGui) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 2";
+   visible = "1";
+
+   new GuiWindowCtrl() {
+      profile = "GuiWindowProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "158 88";
+      extent = "308 189";
+      minExtent = "8 2";
+      visible = "1";
+      text = "Start New Server";
+      maxLength = "255";
+      resizeWidth = "1";
+      resizeHeight = "1";
+      canMove = "1";
+      canClose = "1";
+      canMinimize = "1";
+      canMaximize = "1";
+      minSize = "50 50";
+
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "30 32";
+         extent = "66 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "Server Name:";
+         maxLength = "255";
+      };
+      new GuiTextEditCtrl(startServerName) {
+         profile = "GuiTextEditProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "113 32";
+         extent = "160 18";
+         minExtent = "8 2";
+         visible = "1";
+         //variable = "pref::Server::Name";
+         maxLength = "255";
+         historySize = "0";
+         password = "0";
+         tabComplete = "0";
+         sinkAllKeyEvents = "0";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "31 62";
+         extent = "63 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "Player Name:";
+         maxLength = "255";
+      };
+      new GuiTextEditCtrl(startServerPlayerName) {
+         profile = "GuiTextEditProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "113 63";
+         extent = "160 18";
+         minExtent = "8 2";
+         visible = "1";
+         //variable = "pref::Player::Name";
+         maxLength = "255";
+         historySize = "0";
+         password = "0";
+         tabComplete = "0";
+         sinkAllKeyEvents = "0";
+      };
+      new GuiButtonCtrl() {
+         profile = "GuiButtonProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "154 151";
+         extent = "140 30";
+         minExtent = "8 2";
+         visible = "1";
+         command = "startServerGui.createServer(true);";
+         text = "Create Server!";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "31 93";
+         extent = "58 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "Server Port:";
+         maxLength = "255";
+      };
+      new GuiTextEditCtrl(startServerPort) {
+         profile = "GuiTextEditProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "113 93";
+         extent = "160 18";
+         minExtent = "8 2";
+         visible = "1";
+         //variable = "pref::Server::port";
+         maxLength = "255";
+         historySize = "0";
+         password = "0";
+         tabComplete = "0";
+         sinkAllKeyEvents = "0";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "31 122";
+         extent = "62 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "Max Players:";
+         maxLength = "255";
+      };
+      new GuiTextEditCtrl(startServerMaxPlayers) {
+         profile = "GuiTextEditProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "113 122";
+         extent = "160 18";
+         minExtent = "8 2";
+         visible = "1";
+         //variable = "pref::Server::MaxPlayers";
+         maxLength = "255";
+         historySize = "0";
+         password = "0";
+         tabComplete = "0";
+         sinkAllKeyEvents = "0";
+      };
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         Position = "11 151";
+         Extent = "110 30";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "canvas.popDialog(startServerGui);";
+         text = "Cancel";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+   };
+};
+//--- OBJECT WRITE END ---
+function startServerGui::onWake(%this)
+{
+   if($pref::Server::port $= "")
+      $pref::Server::port = 28000;
+      
+   if($pref::Server::MaxPlayers $= "")
+      $pref::Server::MaxPlayers = 32;
+
+   startServerName.setText($pref::Server::Name);
+   startServerPlayerName.setText($pref::Player::Name);
+   startServerPort.setText($pref::Server::port);
+   startServerMaxPlayers.setText($pref::Server::MaxPlayers);
+}
+
+function startServerGui::createServer()
+{
+   %serverName = startServerName.getValue();
+   %playerName = startServerPlayerName.getValue();
+
+   $pref::Player::Name = %playerName;
+   $pref::Server::Name = %serverName;	
+
+   createServer(true);
+   canvas.popDialog(startServerGui);
+}

@@ -1,0 +1,46 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(RemapGui) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 8";
+   visible = "1";
+   helpTag = "0";
+
+   new GuiControl(RemapDlg) {
+      profile = "GuiWindowProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      position = "213 213";
+      extent = "243 64";
+      minExtent = "8 8";
+      visible = "1";
+      helpTag = "0";
+
+      new GuiTextCtrl(RemapText) {
+         profile = "GuiTextProfile";
+         horizSizing = "center";
+         vertSizing = "center";
+         position = "2 21";
+         extent = "243 20";
+         minExtent = "8 8";
+         visible = "1";
+         helpTag = "0";
+         text = "Re-bind control...";
+         maxLength = "255";
+      };
+      new GuiInputCtrl(RemapInput) {
+         profile = "GuiInputCtrlProfile";
+         horizSizing = "relative";
+         vertSizing = "relative";
+         position = "0 0";
+         extent = "243 64";
+         minExtent = "8 8";
+         visible = "1";
+         helpTag = "0";
+      };
+   };
+};
+//--- OBJECT WRITE END ---

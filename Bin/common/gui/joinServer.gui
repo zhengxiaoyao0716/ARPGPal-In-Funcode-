@@ -1,0 +1,513 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(JoinServerGui) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "width";
+   vertSizing = "height";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 8";
+   visible = "1";
+   bitmap = "./cover";
+   useVariable = "0";
+   tile = "0";
+      helpTag = "0";
+
+   new GuiControl() {
+      profile = "GuiWindowProfile";
+      horizSizing = "center";
+      vertSizing = "center";
+      position = "60 80";
+      extent = "520 320";
+      minExtent = "8 8";
+      visible = "1";
+         helpTag = "0";
+
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "14 59";
+         extent = "63 18";
+         minExtent = "8 8";
+         visible = "1";
+         text = "Server Name";
+         maxLength = "255";
+            helpTag = "0";
+      };
+      new GuiButtonCtrl(JS_queryMaster) {
+         profile = "GuiButtonProfile";
+         horizSizing = "right";
+         vertSizing = "top";
+         position = "216 289";
+         extent = "90 23";
+         minExtent = "8 8";
+         visible = "1";
+         command = "JoinServerGui.query();";
+         text = "Query Master";
+         groupNum = "-1";
+         buttonType = "PushButton";
+            helpTag = "0";
+      };
+      new GuiButtonCtrl(JS_queryLan) {
+         profile = "GuiButtonProfile";
+         horizSizing = "right";
+         vertSizing = "top";
+         position = "114 289";
+         extent = "90 23";
+         minExtent = "8 8";
+         visible = "1";
+         command = "JoinServerGui.queryLan();";
+         text = "Query LAN";
+         groupNum = "-1";
+         buttonType = "PushButton";
+            helpTag = "0";
+      };
+      new GuiButtonCtrl(JS_refreshServer) {
+         profile = "GuiButtonProfile";
+         horizSizing = "right";
+         vertSizing = "top";
+         position = "318 289";
+         extent = "90 23";
+         minExtent = "8 8";
+         visible = "1";
+         command = "JoinServerGui.refresh();";
+         text = "Refresh Server";
+         groupNum = "-1";
+         buttonType = "PushButton";
+            helpTag = "0";
+      };
+      new GuiButtonCtrl(JS_joinServer) {
+         profile = "GuiButtonProfile";
+         horizSizing = "right";
+         vertSizing = "top";
+         position = "420 289";
+         extent = "90 23";
+         minExtent = "8 8";
+         visible = "1";
+         command = "JoinServerGui.join();";
+         text = "Join Server!";
+         groupNum = "-1";
+         buttonType = "PushButton";
+            helpTag = "0";
+            active = "0";
+      };
+      new GuiScrollCtrl() {
+         profile = "GuiScrollProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "10 92";
+         extent = "500 186";
+         minExtent = "8 8";
+         visible = "1";
+         willFirstRespond = "1";
+         hScrollBar = "dynamic";
+         vScrollBar = "alwaysOn";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+            defaultLineHeight = "15";
+            helpTag = "0";
+
+         new GuiTextListCtrl(JS_serverList) {
+            profile = "GuiTextArrayProfile";
+            horizSizing = "right";
+            vertSizing = "bottom";
+            position = "2 2";
+            extent = "480 8";
+            minExtent = "8 8";
+            visible = "1";
+            enumerate = "0";
+            resizeCell = "1";
+            columns = "0 305 370 500";
+            fitParentWidth = "1";
+            clipColumnText = "0";
+               noDuplicates = "false";
+               helpTag = "0";
+         };
+      };
+      new GuiTextEditCtrl(JoinServerPlayerName) {
+         profile = "GuiTextEditProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "98 34";
+         extent = "134 18";
+         minExtent = "8 8";
+         visible = "1";
+         //variable = "pref::Player::Name";
+         maxLength = "255";
+         historySize = "0";
+         password = "0";
+         tabComplete = "0";
+         sinkAllKeyEvents = "0";
+            helpTag = "0";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "12 30";
+         extent = "63 18";
+         minExtent = "8 8";
+         visible = "1";
+         text = "Player Name:";
+         maxLength = "255";
+            helpTag = "0";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "381 65";
+         extent = "36 18";
+         minExtent = "8 8";
+         visible = "1";
+         text = "Players";
+         maxLength = "255";
+            helpTag = "0";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "532 70";
+         extent = "38 18";
+         minExtent = "8 8";
+         visible = "1";
+         text = "Version";
+         maxLength = "255";
+            helpTag = "0";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "520 63";
+         extent = "28 18";
+         minExtent = "8 8";
+         visible = "1";
+         text = "Game";
+         maxLength = "255";
+            helpTag = "0";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "314 66";
+         extent = "20 18";
+         minExtent = "8 8";
+         visible = "1";
+         text = "Ping";
+         maxLength = "255";
+            helpTag = "0";
+      };
+      new GuiTextCtrl(JS_status) {
+         profile = "GuiBigTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "243 14";
+         extent = "266 40";
+         minExtent = "266 40";
+         visible = "1";
+         maxLength = "255";
+      };
+      new GuiButtonCtrl() {
+         profile = "GuiButtonProfile";
+         horizSizing = "right";
+         vertSizing = "top";
+         position = "12 289";
+         extent = "90 23";
+         minExtent = "8 8";
+         visible = "1";
+         command = "JoinServerGui.exit();";
+         text = "<< Back";
+         groupNum = "-1";
+         buttonType = "PushButton";
+            helpTag = "0";
+      };
+      new GuiControl(JS_queryStatus) {
+         profile = "GuiWindowProfile";
+         horizSizing = "center";
+         vertSizing = "center";
+         position = "105 135";
+         extent = "310 50";
+         minExtent = "8 8";
+         visible = "0";
+            helpTag = "0";
+
+         new GuiButtonCtrl(JS_cancelQuery) {
+            profile = "GuiButtonProfile";
+            horizSizing = "right";
+            vertSizing = "bottom";
+            position = "9 15";
+            extent = "64 20";
+            minExtent = "8 8";
+            visible = "1";
+            command = "JoinServerGui.cancel();";
+            text = "Cancel!";
+            groupNum = "-1";
+            buttonType = "PushButton";
+               helpTag = "0";
+         };
+         new GuiProgressCtrl(JS_statusBar) {
+            profile = "GuiProgressProfile";
+            horizSizing = "right";
+            vertSizing = "bottom";
+            position = "84 15";
+            extent = "207 20";
+            minExtent = "8 8";
+            visible = "1";
+               helpTag = "0";
+         };
+         new GuiTextCtrl(JS_statusText) {
+            profile = "GuiProgressTextProfile";
+            horizSizing = "right";
+            vertSizing = "bottom";
+            position = "85 14";
+            extent = "205 20";
+            minExtent = "8 8";
+            visible = "1";
+            maxLength = "255";
+               helpTag = "0";
+         };
+      };
+      new GuiButtonCtrl() {
+         profile = "GuiButtonProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "435 63";
+         extent = "78 24";
+         minExtent = "8 2";
+         visible = "1";
+         command = "SetIpWindow.setVisible(true);";
+         text = "Connect To IP";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+      new GuiControl(setIpWindow) {
+         profile = "GuiWindowProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "314 25";
+         extent = "190 78";
+         minExtent = "8 2";
+         visible = "0";
+
+         new GuiTextEditCtrl(setIPEdit) {
+            profile = "GuiTextEditProfile";
+            horizSizing = "right";
+            vertSizing = "bottom";
+            position = "34 15";
+            extent = "144 18";
+            minExtent = "8 2";
+            visible = "1";
+            maxLength = "255";
+            historySize = "0";
+            password = "0";
+            tabComplete = "0";
+            sinkAllKeyEvents = "0";
+         };
+         new GuiTextCtrl() {
+            profile = "GuiTextProfile";
+            horizSizing = "right";
+            vertSizing = "bottom";
+            position = "15 15";
+            extent = "11 18";
+            minExtent = "8 2";
+            visible = "1";
+            text = "IP:";
+            maxLength = "255";
+         };
+         new GuiButtonCtrl() {
+            profile = "GuiButtonProfile";
+            horizSizing = "right";
+            vertSizing = "bottom";
+            position = "97 42";
+            extent = "89 27";
+            minExtent = "8 2";
+            visible = "1";
+            command = "JoinServerGui.connectToIp();";
+            text = "Connect";
+            groupNum = "-1";
+            buttonType = "PushButton";
+         };
+         new GuiButtonCtrl() {
+            profile = "GuiButtonProfile";
+            horizSizing = "right";
+            vertSizing = "bottom";
+            position = "3 42";
+            extent = "89 27";
+            minExtent = "8 2";
+            visible = "1";
+            command = "SetIpWindow.setVisible(0);";
+            text = "Cancel";
+            groupNum = "-1";
+            buttonType = "PushButton";
+         };
+      };
+   };
+};
+//--- OBJECT WRITE END ---
+
+//----------------------------------------
+function JoinServerGui::onWake()
+{
+   // Double check the status. Tried setting this the control
+   // inactive to start with, but that didn't seem to work.
+   JS_joinServer.setActive(JS_serverList.rowCount() > 0);
+
+   JoinServerPlayerName.setText($pref::Player::Name);
+}   
+
+//----------------------------------------
+function JoinServerGui::query(%this)
+{
+   queryMasterServer(
+      0,          // Query flags
+      $Client::GameTypeQuery,       // gameTypes
+      $Client::MissionTypeQuery,    // missionType
+      0,          // minPlayers
+      100,        // maxPlayers
+      0,          // maxBots
+      2,          // regionMask
+      0,          // maxPing
+      100,        // minCPU
+      0           // filterFlags
+      );
+}
+
+//----------------------------------------
+function JoinServerGui::queryLan(%this)
+{
+   queryLANServers(
+      28000,      // lanPort for local queries
+      0,          // Query flags
+      $Client::GameTypeQuery,       // gameTypes
+      $Client::MissionTypeQuery,    // missionType
+      0,          // minPlayers
+      100,        // maxPlayers
+      0,          // maxBots
+      2,          // regionMask
+      0,          // maxPing
+      100,        // minCPU
+      0           // filterFlags
+      );
+}
+
+//----------------------------------------
+function JoinServerGui::cancel(%this)
+{
+   cancelServerQuery();
+   JS_queryStatus.setVisible(false);
+}
+
+
+//----------------------------------------
+function JoinServerGui::join(%this)
+{
+   $pref::Player::Name = JoinServerPlayerName.getText();
+
+   if(Server.connected)
+	disconnect();
+
+   cancelServerQuery();
+   %id = JS_serverList.getSelectedId();
+
+   // The server info index is stored in the row along with the
+   // rest of displayed info.
+   %index = getField(JS_serverList.getRowTextById(%id),3);
+   if (setServerInfo(%index)) {
+      connectToServer($ServerInfo::Address);
+      canvas.pushDialog(waitingForServer);
+      %this.exit();
+   }
+}
+
+//----------------------------------------
+function JoinServerGui::refresh(%this)
+{
+   cancelServerQuery();
+   %id = JS_serverList.getSelectedId();
+
+   // The server info index is stored in the row along with the
+   // rest of displayed info.
+   %index = getField(JS_serverList.getRowTextById(%id),3);
+   if (setServerInfo(%index)) {
+      querySingleServer( $ServerInfo::Address, 0 );
+   }
+}
+
+//----------------------------------------
+function JoinServerGui::refreshSelectedServer( %this )
+{
+   querySingleServer( $JoinGameAddress, 0 );
+}
+
+//----------------------------------------
+function JoinServerGui::exit(%this)
+{
+   cancelServerQuery();
+   Canvas.popDialog(JoinServerGui);
+}
+
+//----------------------------------------
+function JoinServerGui::update(%this)
+{
+   // Copy the servers into the server list.
+   JS_queryStatus.setVisible(false);
+   JS_serverList.clear();
+   %sc = getServerCount();
+   for (%i = 0; %i < %sc; %i++) {
+      setServerInfo(%i);
+      JS_serverList.addRow(%i,
+         $ServerInfo::Name TAB
+         $ServerInfo::Ping TAB
+         $ServerInfo::PlayerCount @ "/" @ $ServerInfo::MaxPlayers TAB
+         %i);  // ServerInfo index stored also
+   }
+   JS_serverList.sort(0);
+   JS_serverList.setSelectedRow(0);
+   JS_serverList.scrollVisible(0);
+
+   JS_joinServer.setActive(JS_serverList.rowCount() > 0);
+} 
+
+//----------------------------------------
+function onServerQueryStatus(%status, %msg, %value)
+{
+	echo("ServerQuery: " SPC %status SPC %msg SPC %value);
+   // Update query status
+   // States: start, update, ping, query, done
+   // value = % (0-1) done for ping and query states
+   if (!JS_queryStatus.isVisible())
+      JS_queryStatus.setVisible(true);
+
+   switch$ (%status) {
+      case "start":
+         JS_joinServer.setActive(false);
+         JS_queryMaster.setActive(false);
+         JS_statusText.setText(%msg);
+         JS_statusBar.setValue(0);
+         JS_serverList.clear();
+
+      case "ping":
+         JS_statusText.setText("Ping Servers");
+         JS_statusBar.setValue(%value);
+
+      case "query":
+         JS_statusText.setText("Query Servers");
+         JS_statusBar.setValue(%value);
+
+      case "done":
+         JS_queryMaster.setActive(true);
+         JS_queryStatus.setVisible(false);
+         JS_status.setText(%msg);
+         JoinServerGui.update();
+   }
+}
+
+function joinServerGui::connectToIp(%this)
+{
+   connectToServer(setIPEdit.getValue());
+   setIpWindow.setVisible(0);
+   %this.exit();
+}

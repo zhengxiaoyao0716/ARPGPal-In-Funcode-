@@ -1,0 +1,40 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(waitingForServer){
+   new GuiControl() {
+      profile = "GuiWindowProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "250 136";
+      extent = "250 120";
+      minExtent = "8 2";
+      visible = "1";
+
+      new GuiMLTextCtrl() {
+         profile = "GuiMediumTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "21 18";
+         extent = "172 48";
+         minExtent = "8 2";
+         visible = "1";
+         lineSpacing = "2";
+         allowColorChars = "0";
+         maxChars = "-1";
+         text = "Waiting for Server Response ...";
+      };
+      new GuiButtonCtrl() {
+         profile = "GuiButtonProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "36 90";
+         extent = "142 23";
+         minExtent = "8 2";
+         visible = "1";
+         command = "canvas.popDialog(waitingForServer);";
+         text = "CLOSE";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+   };
+};
+//--- OBJECT WRITE END ---

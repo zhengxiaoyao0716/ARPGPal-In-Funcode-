@@ -1,0 +1,89 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(NetworkMenu) {
+   canSaveDynamicFields = "0";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   position = "0 0";
+   Extent = "640 480";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiWindowCtrl() {
+      canSaveDynamicFields = "0";
+      Profile = "GuiWindowProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      position = "220 153";
+      Extent = "218 153";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      text = "Network Menu";
+      maxLength = "1024";
+      resizeWidth = "0";
+      resizeHeight = "0";
+      canMove = "1";
+      canClose = "1";
+      canMinimize = "0";
+      canMaximize = "0";
+      minSize = "50 50";
+      closeCommand = "canvas.popDialog(networkMenu);";
+
+      new GuiButtonCtrl(StartServer) {
+         canSaveDynamicFields = "0";
+         internalName = "StartServer";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         position = "43 31";
+         Extent = "137 34";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "canvas.pushDialog(startServerGui);";
+         hovertime = "1000";
+         text = "Start a Server";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+      new GuiButtonCtrl(JoinServer) {
+         canSaveDynamicFields = "0";
+         internalName = "JoinServer";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         position = "43 71";
+         Extent = "137 31";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "canvas.pushDialog(joinServerGui);";
+         hovertime = "1000";
+         text = "Join a Server";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+      new GuiButtonCtrl(disconnect) {
+         canSaveDynamicFields = "0";
+         internalName = "disconnect";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         position = "43 110";
+         Extent = "137 30";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "disconnect();";
+         hovertime = "1000";
+         text = "Disconnect";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+   };
+};
+//--- OBJECT WRITE END ---
