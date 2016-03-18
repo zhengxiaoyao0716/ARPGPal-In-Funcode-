@@ -1,4 +1,4 @@
-﻿# ARPGPal-In-Funcode-
+# ARPGPal-In-Funcode- [![Join the chat at https://gitter.im/zhengxiaoyao0716/chatroom](https://badges.gitter.im/zhengxiaoyao0716/chatroom.svg)](https://gitter.im/zhengxiaoyao0716/chatroom?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 ####用Funcode（很**的一个国产游戏引擎~）做的ARPG模式的仙剑奇侠传。
 ####准确的说，完全就是练手，毫无剧情可言。。。
 ###电脑最近不稳定，刚刚差点都准备重装系统了
